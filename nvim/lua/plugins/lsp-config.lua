@@ -28,6 +28,7 @@ local function setup_nvim_lspconfig()
 	lspconfig.eslint.setup({ capabilities = capabilities })
 	lspconfig.texlab.setup({ capabilities = capabilities })
 	lspconfig.sqlls.setup({ capabilities = capabilities })
+	lspconfig.bashls.setup({ capabilities = capabilities })
 	-- lspconfig.harper_ls.setup({ capabilities = capabilities })
 
 	-- keybinds!
